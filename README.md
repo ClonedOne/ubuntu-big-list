@@ -9,11 +9,12 @@ This is just the first attempt at the list, it will grow with time and, hopefull
 Anyone having an opinion/comment on how to make Ubuntu a better place to live, should feel totally free to propose anything :)
 
 ####Ok lets start with the graphics.
-The default theme and icons are ugly. Yes really ugly. I mean, it's obviously just my optinion, but yeah it's ugly, sorry.
+The default theme and icons are ugly. I mean, it's obviously just my optinion, but yeah it's really ugly, sorry.
 
 * Install [Unity Tweak Tool](https://apps.ubuntu.com/cat/applications/unity-tweak-tool/). I find it way easier to use than compiz. You can find it in Ubuntu's own sw center.
 * To make it definetely better my standard approach is to use the [arc-theme](https://github.com/horst3180/arc-theme). Arc darker is so nice.
 * As icon pack I usually go with [numix-circle](http://me4oslav.deviantart.com/art/Numix-Circle-Linux-Desktop-Icon-Theme-414741466).
+* Do change default wallpaper.
 
 ####Launchers and flashy stuff
 
@@ -21,7 +22,7 @@ Again, totally my own opinion, but the default launcher may need some revamping.
 
 * Install [Albert](https://github.com/ManuelSchneid3r/albert). Yep, it's like alfred but with less Batman's money. Use Arc Dark theme (really).
 * Make ubuntu standard launcher disappear, using system's settings, and bind Albert to comfortable shortcut.
-* Add Wikipedia and other useful search engines in Albert configuration and enjoy the magicx.
+* Add Wikipedia and other useful search engines in Albert configuration, select folders to index and enjoy the magicx.
 
 ####Terminal and Shell
 
@@ -30,11 +31,14 @@ Again, totally my own opinion, but the default launcher may need some revamping.
 * Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh). Remember to set plugins (don't forget `z`).
 * As theme I use [Bullet Train](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme).
 * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) is a very helpful/colorful plugin to import, you will want it.
+* If not already there, install [tmux](https://tmux.github.io/). An easy example configuration file for tmux is in my [dotfiles repo](https://github.com/ClonedOne/c1-dotfiles), but you can probably find better examples online.
 
 ####Utilities
 
 * `cat` is useful, like a whole lot. But again, it's ugly. Solution: install [python-pygments](http://pygments.org/) and alias `pygmentize -g` to `ccat`.
 * [fzf](https://github.com/junegunn/fzf) is another valuable tool which you may want. It replacese stard command search in terminal with a cooler fuzzy apporach.
-
+* Install `lm-sensors` and `hddtemp` using `apt` to monitor system status.
+* If you happen to work with ssh install `sshfs` using `apt`.
+* Use [GNU Stow](https://www.gnu.org/software/stow/) to manage configuration files.
 
  
