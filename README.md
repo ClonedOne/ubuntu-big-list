@@ -33,12 +33,17 @@ Again, totally my own opinion, but the default launcher may need some revamping.
 * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) is a very helpful/colorful plugin to import, you will want it.
 * If not already there, install [tmux](https://tmux.github.io/). An easy example configuration file for tmux is in my [dotfiles repo](https://github.com/ClonedOne/c1-dotfiles), but you can probably find better examples online.
 
-####Utilities
+####Command line utilities
 
 * `cat` is useful, like a whole lot. But again, it's ugly. Solution: install [python-pygments](http://pygments.org/) and alias `pygmentize -g` to `ccat`.
 * [fzf](https://github.com/junegunn/fzf) is another valuable tool which you may want. It replacese stard command search in terminal with a cooler fuzzy apporach.
-* Install `lm-sensors` and `hddtemp` using `apt` to monitor system status.
 * If you happen to work with ssh install `sshfs` using `apt`.
 * Use [GNU Stow](https://www.gnu.org/software/stow/) to manage configuration files.
+* To record and share terminal sessions over the interwebz go with [asciinema](https://asciinema.org/). It's fun and way more useful than it seems.
+
+####System status
+
+* Install `lm-sensors` and `hddtemp` using `apt` to monitor system temperature. 
+* `powertop` and [`tlp`](http://linrunner.de/en/tlp/tlp.html) are useful to keep and eye on the power usage.
 
  
