@@ -30,6 +30,7 @@ Again, totally my own opinion, but the default launcher may need some revamping.
 * Install [zsh](http://www.zsh.org/) if you don't already have it. `$ chsh zsh` will be needed.
 * Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh). Remember to set plugins (don't forget `z`).
 * As theme I use [Bullet Train](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme).
+* You will need some powerline [font](https://github.com/powerline/fonts) for the theme to work properly.
 * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) is a very helpful/colorful plugin to import, you will want it.
 * If not already there, install [tmux](https://tmux.github.io/). An easy example configuration file for tmux is in my [dotfiles repo](https://github.com/ClonedOne/c1-dotfiles), but you can probably find better examples online.
 
