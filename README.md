@@ -41,6 +41,7 @@ Again, totally my own opinion, but the default launcher may need some revamping.
 * If you happen to work with ssh install `sshfs` using `apt`.
 * Use [GNU Stow](https://www.gnu.org/software/stow/) to manage configuration files.
 * To record and share terminal sessions over the interwebz go with [asciinema](https://asciinema.org/). It's fun and way more useful than it seems.
+* [ranger](https://github.com/ranger/ranger) is a very nice file manager which works directly in the temrinal.
 
 ####System status
 
