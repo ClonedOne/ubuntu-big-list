@@ -48,4 +48,6 @@ Again, totally my own opinion, but the default launcher may need some revamping.
 * Install `lm-sensors` and `hddtemp` using `apt` to monitor system temperature. 
 * `powertop` and [`tlp`](http://linrunner.de/en/tlp/tlp.html) are useful to keep and eye on the power usage.
 
- 
+####Random stuff
+
+* Workspaces are great. The icon is quite ugly. There is no way from system settings to remove the icon without removing workspaces. To achieve that follow this [guide](http://askubuntu.com/questions/38789/how-do-i-add-and-remove-the-workspace-switcher-launcher-from-the-unity-launcher)
