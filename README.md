@@ -8,13 +8,16 @@ I'm by no means a pro linux user (I'm working on it) so this list is just a chec
 This is just the first attempt at the list, it will grow with time and, hopefully, get better.
 Anyone having an opinion/comment on how to make Ubuntu a better place to live, should feel totally free to propose anything :)
 
+
 ####Ok lets start with the graphics.
+
 The default theme and icons are ugly. I mean, it's obviously just my optinion, but yeah it's really ugly, sorry.
 
 * Install [Unity Tweak Tool](https://apps.ubuntu.com/cat/applications/unity-tweak-tool/). I find it way easier to use than compiz. You can find it in Ubuntu's own sw center.
 * To make it definetely better my standard approach is to use the [arc-theme](https://github.com/horst3180/arc-theme). Arc darker is so nice.
 * As icon pack I usually go with [numix-circle](http://me4oslav.deviantart.com/art/Numix-Circle-Linux-Desktop-Icon-Theme-414741466).
 * Do change default wallpaper.
+
 
 ####Launchers and flashy stuff
 
@@ -23,6 +26,7 @@ Again, totally my own opinion, but the default launcher may need some revamping.
 * Install [Albert](https://github.com/ManuelSchneid3r/albert). Yep, it's like alfred but with less Batman's money. Use Arc Dark theme (really).
 * Make ubuntu standard launcher disappear, using system's settings, and bind Albert to comfortable shortcut.
 * Add Wikipedia and other useful search engines in Albert configuration, select folders to index and enjoy the magicx.
+
 
 ####Terminal and Shell
 
@@ -34,6 +38,7 @@ Again, totally my own opinion, but the default launcher may need some revamping.
 * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) is a very helpful/colorful plugin to import, you will want it.
 * If not already there, install [tmux](https://tmux.github.io/). An easy example configuration file for tmux is in my [dotfiles repo](https://github.com/ClonedOne/c1-dotfiles), but you can probably find better examples online.
 
+
 ####Command line utilities
 
 * `cat` is useful, like a whole lot. But again, it's ugly. Solution: install [python-pygments](http://pygments.org/) and alias `pygmentize -g` to `ccat`.
@@ -43,10 +48,19 @@ Again, totally my own opinion, but the default launcher may need some revamping.
 * To record and share terminal sessions over the interwebz go with [asciinema](https://asciinema.org/). It's fun and way more useful than it seems.
 * [ranger](https://github.com/ranger/ranger) is a very nice file manager which works directly in the temrinal.
 
+
 ####System status
 
 * Install `lm-sensors` and `hddtemp` using `apt` to monitor system temperature. 
 * `powertop` and [`tlp`](http://linrunner.de/en/tlp/tlp.html) are useful to keep and eye on the power usage.
+
+
+####Productivity
+
+* Yes I would really love to get used to go to bed early and be super productive in the day. But for some reasons (really idk) I end up quite often at 3AM still trying to finish what should have been done by lunchtime. Therefore [Redshift](https://github.com/jonls/redshift) has become one of my best friends. It shiifts your monitor colors towards red dynamically according to current time - really helpful.
+* When they told me Firefox could get better if used without mouse, I wasn't really sold. Then I tried VimFX, and was loke "ooooh niceeee". Now I'm using [Vimperator](https://github.com/vimperator/vimperator-labs) and is like "WOWOWOW thaaat's c00l!". Try it.
+* Still about the 3AM INeedToFinishAllStuff problem. How bad are black on white pdfs at 3AM? [Zathura](https://pwmt.org/projects/zathura/) is a great solution to this problem providing complete personalization, included color schemes, and vim-like controls. Aaaand how cool is reading Solarized pdfs!?!
+
 
 ####Random stuff
 
